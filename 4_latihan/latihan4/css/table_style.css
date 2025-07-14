@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 10px 20px;
+    background-color: #f3f3f3;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+    align-items: center;
+}
+
+th, td {
+    border-color: #f3f3f3;
+    font-size: 90%;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+td {
+    background-color: white;
+}
+th {
+    color: white;
+    background-color: #54cc54;
+}

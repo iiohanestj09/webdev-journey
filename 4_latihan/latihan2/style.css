@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: #b0acac;
+  display: flex;
+  border-bottom: 5px solid black;
+}
+
+#logo img {
+  align-items: center;
+}
+
+.header-title {
+  margin: auto 10px;
+}
+
+.header-title h1 {
+  font-family: Arial;
+}
+
+.search-box {
+  margin-left: auto;
+  margin-top: auto;
+  padding: 20px 13px;
+}
+
+.search-box input{
+  height: 16.5px;
+  border: 2.4px solid black;
+  border-radius: 4px;
+}
+
+.search-button {
+  margin-left: 0px;
+  margin-top: auto;
+  padding: 20px 25px 20px 0px;
+}
+
+.search-button button{
+  height: 22px;
+  border: 2.4px solid black;
+  border-radius: 4px;
+}
