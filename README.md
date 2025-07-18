@@ -1,2 +1,0 @@
-Catatan ini dibuat saat semester 2 pada mata kuliah Pemrograman Web menggunakan HTML, CSS, dan sedikit JavaScript juga PHP. <br> 
-Repositori ini bertujuan untuk mendokumentasikan konsep-konsep dasar, praktik dan latihan sederhana dalam pengembangan web 🚀

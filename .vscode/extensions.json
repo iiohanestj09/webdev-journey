@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "dzhavat.bracket-pair-toggler",
+        "formulahendry.code-runner",
+        "adpyke.codesnap",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "narasimapandiyan.jetbrainsmono",
+        "pkief.material-icon-theme",
+        "parthw-vscode.vscode-night-walk-theme",
+        "christian-kohler.path-intellisense",
+        "formulahendry.auto-rename-tag",
+        "mgmcdermott.vscode-language-babel",
+        "naumovs.color-highlight",
+        "pranaygp.vscode-css-peek",
+        "ecmel.vscode-html-css",
+        "tal7aouy.indent-colorizer",
+        "zignd.html-css-class-completion",
+        "ms-vscode.js-debug-nightly",
+        "ritwickdey.liveserver",
+        "wallabyjs.quokka-vscode",
+        "jzmstrjp.color-the-tag-name"
+    ]
+}
