@@ -1,6 +1,6 @@
 ## 🌐 WebDev Journey
 > ✨ *Repo ini merupakan perjalanan saya dalam mengeksplorasi web development.*  
-> Dimulai dari dasar seperti HTML, CSS, JavaScript dan PHP hingga berbagai tools serta framework.
+> Dimulai dari dasar seperti HTML, CSS, JavaScript dan PHP hingga berbagai tools serta framework. <br>
 > Saya dokumentasikan proses belajar ini sebagai arsip pribadi dan latihan berkelanjutan.
 
 ---
@@ -13,13 +13,12 @@
 ---
 
 ## 🗺️ Roadmap
-
-| Stage | Focus Learning                     | Status             |
-|-------|------------------------------------|--------------------|
-|  1️⃣  | HTML & CSS Fundamental              | ✅ Done           |
-|  2️⃣  | JavaScript for Web                  | ✅ Done           |
-|  3️⃣  | PHP for Web                         | ✅ Done           |
-|  4️⃣  | Tools & Workflow                    | 🔄 In Progress    |
-|  5️⃣  | Frameworks                          | 🔄 In Progress    |
+| Stage |  Focus Learning                  | Status              |
+|-------|----------------------------------|---------------------|
+|  1️⃣   | HTML & CSS Fundamental           | ✅ Done             |
+|  2️⃣   | JavaScript for Web               | 🔄 In Progress      |
+|  3️⃣   | PHP for Web                      | 🟥 Not Started      |
+|  4️⃣   | Tools & Workflow                 | 🟥 Not Started      |
+|  5️⃣   | Frameworks                       | 🟥 Not Started      |
 
 > 📌 **Repositori ini masih dalam proses** dan akan terus diperbarui seiring perkembangan pembelajaran saya.
