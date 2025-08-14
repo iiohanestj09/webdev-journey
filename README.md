@@ -15,11 +15,12 @@
 ## 🗺️ Roadmap
 | Stage |  Focus Learning                  | Status              |
 |-------|----------------------------------|---------------------|
-|  1️⃣   | HTML & CSS Fundamental           | ✅ Done             |
-|  2️⃣   | JavaScript for Web               | 🔄 On Progress      |
-|  3️⃣   | PHP for Web                      | 🟥 Not Started      |
-|  4️⃣   | Tools & Workflow                 | 🟥 Not Started      |
-|  5️⃣   | Frameworks                       | 🟥 Not Started      |
+|  1️⃣   | HTML Fundamental                 | ✅ Done             |
+|  2️⃣   | HTML Fundamental                 | ✅ Done             |
+|  3️⃣   | JavaScript for Web               | 🔄 On Progress      |
+|  4️⃣   | PHP for Web                      | 🟥 Not Started      |
+|  5️⃣   | Tools & Workflow                 | 🟥 Not Started      |
+|  6️⃣   | Frameworks                       | 🟥 Not Started      |
 
 > 📌 **Repositori ini masih dalam proses** dan akan terus diperbarui seiring perkembangan pembelajaran saya.
 
