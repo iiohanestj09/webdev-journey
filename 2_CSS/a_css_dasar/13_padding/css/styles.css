@@ -1,0 +1,29 @@
+h1{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.border{
+    border: 2px solid;
+}
+
+.padding1{
+    background-color: aqua;
+    padding: 40px;          /* Seluruhnya */
+}
+
+.padding2{
+    background-color: burlywood;
+    padding: 20px 50px;          /* Atas-Bawah dan Kiri-Kanan */
+}
+
+.padding3{
+    background-color: cadetblue;
+    padding: 5px 20px 50px;          /* Atas, Kiri-Kanan, Bawah */
+}
+
+.padding4{
+    background-color: chartreuse;
+    padding: 5px 10px 20px 50px;          /* Atas, Kanan, Bawah, Kiri */
+}

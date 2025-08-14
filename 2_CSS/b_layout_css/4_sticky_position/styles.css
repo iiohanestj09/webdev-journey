@@ -1,0 +1,25 @@
+*{
+    font-family: Tahoma;
+    box-sizing: border-box; /* Tinggi&Lebar konten yang ditentukan akan termasuk dengan padding+border */
+}
+
+h2{
+    background-color: coral;
+    padding: 5px;
+    height: 40px;
+}
+
+.judul1{
+    position: sticky;
+    top: 0px;
+}
+
+.judul2{
+    position: sticky;
+    top: 45px;
+}
+
+.judul3{
+    position: sticky;
+    bottom: 0px;
+}

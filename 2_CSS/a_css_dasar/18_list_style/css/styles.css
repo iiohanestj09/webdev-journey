@@ -1,0 +1,29 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    font-size: 25px;
+    color: brown;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-type: upper-latin;
+    /* list-style-type: decimal;        Default*/
+}
+
+ul{
+    width: 400px;
+}
+
+ul li{
+    margin: 10px;
+    list-style-position: inside;
+    /* list-style-position: outside;    Default*/
+}
+
+ul.singkat{
+    list-style: inside circle;
+    width: 800px;
+}

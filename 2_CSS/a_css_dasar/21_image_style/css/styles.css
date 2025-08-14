@@ -1,0 +1,40 @@
+h1{
+    font-family: Arial;
+    font-size: 36px;
+}
+
+div{
+    height: 500px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+img.large{
+    height: 500px;
+    width: 500px;
+}
+
+img.medium{
+    height: 200px;
+    width: 200px;
+}
+
+img.small{
+    height: 100px;
+    width: 100px;
+}
+
+img.align-left{
+    float: left;
+    margin-left: 10px;
+}
+
+img.align-right{
+    float: right;
+    margin-right: 10px;
+}
+
+img.align-center{
+    display: block;
+    margin: 0px auto;
+}
