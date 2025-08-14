@@ -19,7 +19,7 @@
 |  2️⃣   | CSS Fundamental                  | ✅ Done             |
 |  3️⃣   | JavaScript for Web               | 🔄 On Progress      |
 |  4️⃣   | PHP for Web                      | 🟥 Not Started      |
-|  5️⃣   | Tools & Workflow                 | 🟥 Not Started      |
+|  5️⃣   | Tools                            | 🟥 Not Started      |
 |  6️⃣   | Frameworks                       | 🟥 Not Started      |
 
 > 📌 **Repositori ini masih dalam proses** dan akan terus diperbarui seiring perkembangan pembelajaran saya.
