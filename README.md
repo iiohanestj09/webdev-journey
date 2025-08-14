@@ -25,6 +25,6 @@
 
 ---
 
-📂 Lihat juga Repositori lainnya yang relevan: <br>
-- [Basic Programming JavaScript](https://github.com/iiohanestj09/basic-programming-javascript) <br>
+📂 Lihat juga Repositori lainnya yang relevan:
+- [Basic Programming JavaScript](https://github.com/iiohanestj09/basic-programming-javascript)
 - [Basic Programming PHP](https://github.com/iiohanestj09/basic-programming-php)
