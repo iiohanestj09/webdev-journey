@@ -22,3 +22,9 @@
 |  5️⃣   | Frameworks                       | 🟥 Not Started      |
 
 > 📌 **Repositori ini masih dalam proses** dan akan terus diperbarui seiring perkembangan pembelajaran saya.
+
+---
+
+Lihat juga Repositori lainnya yang relevan:
+[Basic Programming JavaScript](https://github.com/iiohanestj09/basic-programming-javascript)
+[Basic Programming PHP](https://github.com/iiohanestj09/basic-programming-php)
