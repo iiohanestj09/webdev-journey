@@ -16,7 +16,7 @@
 | Stage |  Focus Learning                  | Status              |
 |-------|----------------------------------|---------------------|
 |  1️⃣   | HTML Fundamental                 | ✅ Done             |
-|  2️⃣   | HTML Fundamental                 | ✅ Done             |
+|  2️⃣   | CSS Fundamental                  | ✅ Done             |
 |  3️⃣   | JavaScript for Web               | 🔄 On Progress      |
 |  4️⃣   | PHP for Web                      | 🟥 Not Started      |
 |  5️⃣   | Tools & Workflow                 | 🟥 Not Started      |
