@@ -26,6 +26,8 @@
 
 ---
 
-📂 Lihat juga Repositori lainnya yang relevan:
-- [Basic Programming JavaScript](https://github.com/iiohanestj09/basic-programming-javascript)
-- [Basic Programming PHP](https://github.com/iiohanestj09/basic-programming-php)
+📂 Lihat juga Repositori lainnya yang relevan dengan:
+|  Web Project                                                              | Others                                                                                        |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [Suwarna Edu Website](https://github.com/iiohanestj09/suwarnaedu-website) | [Basic Programming JavaScript](https://github.com/iiohanestj09/basic-programming-javascript)  |
+|                                                                           | [Basic Programming PHP](https://github.com/iiohanestj09/basic-programming-php)                |
