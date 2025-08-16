@@ -1,47 +1,47 @@
 /* Universal Selector */
 *{
-    font-family: Tahoma;
+  font-family: Tahoma;
 }
 
-/* Type Selector */
+/* Tag Selector */
 h1{
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* Class Selector */
 .artikel{
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .credit{
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .penulis{
-    color: crimson;
+  color: crimson;
 }
 
 .tanggal{
-    color: darkolivegreen;
+  color: darkolivegreen;
 }
 
 /* Id Selector */
 #artikel1{
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 /* Child Selector */
 p>span{
-    color: blueviolet;
+  color: blueviolet;
 }
 
 /* Adjacent Sibling Selector */
 h3+p{
-    color: gray;
-    font-size: 18px;
+  color: gray;
+  font-size: 18px;
 }
 
 /* General Sibling Selector */
 h1~p{
-    text-align: justify;
+  text-align: justify;
 }

@@ -2,48 +2,48 @@
 
 /* 1. Selector Universal */
 *{
-    font-family: Arial;
+  font-family: Arial;
 }
 
-/* 2. Type Selector */
+/* 2. Tag Selector */
 h1{
-    color: chocolate;
+  color: chocolate;
 }
 
 h2{
-    color: darkblue;
+  color: darkblue;
 }
 
 /* 3. Class Selector */
 li.sarapan{
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 /* 4. Id Selector */
 #makanSiang_Senin{
-    color: darkgreen;
+  color: darkgreen;
 }
 
 /* 5. Child Selector    Mengambil Anaknya saja*/
 p>b{
-    color: darkorange;
+  color: darkorange;
 }
 
 li>b{
-    color: darkslateblue;
+  color: darkslateblue;
 }
 
 /* 6. Decendant Selector Mengambil Keseluhruhan dari cucu cicit buyut*/
 p b{
-    color: darkorange;
+  color: darkorange;
 }
 
-/* 7. Adjacent Sibling Selector  x+y == y yang setelah x */
+/* 7. Adjacent Sibling Selector  x+y ==> y yang setelah x */
 p+h2{
-    color: deeppink;
+  color: deeppink;
 }
 
-/* 8. General Sibling Selector   x~y == y yang sebelum x x*/
+/* 8. General Sibling Selector   x~y ==> y yang sebelum x x*/
 h2~p{
-    background-color: chartreuse;
+  background-color: chartreuse;
 }

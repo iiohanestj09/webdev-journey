@@ -1,59 +1,59 @@
 *{
-    font-family: Tahoma;
+  font-family: Tahoma;
 }
 
 .border1{
-    border: 2px solid red;              /* 2px akan atas kanan bawah kiri*/
+  border: 2px solid red;              /* 2px akan atas kanan bawah kiri*/
 }
 
 #atas{
-    border-top: 4px;
-    border-top-color: black ;
-    border-top-style: solid;
+  border-top: 4px;
+  border-top-color: black ;
+  border-top-style: solid;
 }
 
 #kanan{
-    border-right: 17px;
-    border-right-color: blue;
-    border-right-style: double;
+  border-right: 17px;
+  border-right-color: blue;
+  border-right-style: double;
 }
 
 #bawah{
-    border-bottom: 4px;
-    border-bottom-color: chartreuse;
-    border-bottom-style: dotted;
+  border-bottom: 4px;
+  border-bottom-color: chartreuse;
+  border-bottom-style: dotted;
 
 }
 
 #kiri{
-    border-left: 5px;
-    border-left-color: chocolate;
-    border-left-style: dashed;
+  border-left: 5px;
+  border-left-color: chocolate;
+  border-left-style: dashed;
 }
 
 #atasbawah{
-    border-top: 10px;
-    border-top-color: aqua;
+  border-top: 10px;
+  border-top-color: aqua;
 
-    border-bottom: 10px;
-    border-bottom-color: blueviolet;
-    border-style: groove;
+  border-bottom: 10px;
+  border-bottom-color: blueviolet;
+  border-style: groove;
 }
 
 .border2{
-    border-color: darkgreen;
-    border-style: solid;
-    border-width: 15px;    /* Seluruhnya*/
+  border-color: darkgreen;
+  border-style: solid;
+  border-width: 15px;    /* Seluruhnya*/
 }
 
 .border3{
-    border-color: darkgreen;
-    border-style: solid;
-    border-width: 20px 5px;   /* Atas-Bawah dan Kanan-Kiri*/
+  border-color: darkgreen;
+  border-style: solid;
+  border-width: 20px 5px;   /* Atas-Bawah dan Kanan-Kiri*/
 }
 
 .border4{
-    border-color: darkgreen;
-    border-style: solid;
-    border-width:20px 10px 5px 2px;     /* Atas Kanan Bawah Kiri*/
+  border-color: darkgreen;
+  border-style: solid;
+  border-width:20px 10px 5px 2px;     /* Atas Kanan Bawah Kiri*/
 }

@@ -1,17 +1,17 @@
 /* Ini adalah penggunaan css Internal, melakukan deklarasi di head */
 h1{                                               
-    color: brown;
+  color: brown;
 }
 
 p{
-    font-family: Arial;
+  font-family: Arial;
 }
 
 b{
-    color: blue;
+  color: blue;
 }
 
 i{
-    background-color: aqua;
+  background-color: aqua;
 }
 

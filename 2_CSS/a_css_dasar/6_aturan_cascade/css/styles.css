@@ -1,38 +1,38 @@
 *{
-    font-family: Arial;
+  font-family: Arial;
 }
 
 /* Aturan Terakhir, akan menjalankan yang Terbawah jika sama*/
 i{
-    color: green;
+  color: green;
 }
 
 i{
-    color: red;     /* Ini Yang Akan Diambil */
+  color: red;     /* Ini Yang Akan Diambil */
 }
 
 /* Specific */
 b{
-    color: pink;    /* Level 1 */
+  color: pink;    /* Level 1 */
 }
 
 p b{
-    color: brown    !important; /* Level 3 */
+  color: brown    !important; /* Level 3 */
 }
 
 p b{
-    color: yellow;  /* Level 2 */
+  color: yellow;  /* Level 2 */
 }
 
 p b{
-    font-size: 200%;
+  font-size: 200%;
 }
 
 /* Studi Kasus */
 p{
-    font-size: 100%;
+  font-size: 100%;
 }
 
 p#pendahuluan{
-    font-size: 75%;     /* Lebih Specific */
+  font-size: 75%;     /* Lebih Specific */
 }
