@@ -1,46 +1,46 @@
 body{
-    width: 90%;
-    margin: 0 auto;
-    font-family: Arial;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial;
 }
 
 #content{
-    overflow: auto;
+  overflow: auto;
 }
 
 #nav, #feature, #footer{
-    background-color: burlywood;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+  background-color: burlywood;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .column1, .column2, .column3{
-    background-color: aqua;
-    width: 30%;
-    float: left;
-    margin-right: 1.5%;
-    margin-left: 1.5%;
-    padding: 0.66%;
+  background-color: aqua;
+  width: 30%;
+  float: left;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  padding: 0.66%;
 }
 
 .column1{
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .column3{
-    margin-right: 0%;
+  margin-right: 0%;
 }
 
 #content h3{
-    text-align: center;
+  text-align: center;
 }
 
 #feature img{
-    width: 30%;
+  width: 30%;
 }
 
 li{
-    display: inline;
-    padding: 5px;
+  display: inline;
+  padding: 5px;
 }

@@ -1,10 +1,10 @@
 p{
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .absolute{
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    background-color: coral;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: coral;
 }
