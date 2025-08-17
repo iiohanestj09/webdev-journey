@@ -48,3 +48,7 @@ const semuaP = document.querySelectorAll("p");
 semuaP.forEach((el, index) => {
   console.log(`${index} -> ${el.textContent}`);
 })
+
+
+// 6. Berdasarkan Atribut 'nama'  -> Sudah jarang digunakan
+//* document.getElementsByName("name");
