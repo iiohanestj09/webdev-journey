@@ -1,4 +1,4 @@
-//? 3 Properti utama sebelum saat mau Mengubah Isi Konten
+//? 3 Properti utama sebelum saat mau Manipulasi Isi Konten
 
 /* 1. .texContent
 => Fungsi: Mengambil / Mengubah teks MENTAH dalam elemen.
