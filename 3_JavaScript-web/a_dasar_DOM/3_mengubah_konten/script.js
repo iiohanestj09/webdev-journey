@@ -8,8 +8,8 @@
 */
 const p1 = document.getElementById("contoh");
 console.log(p1.textContent);
-const sembunyi = document.getElementsByTagName("span");
-console.log(sembunyi[0].textContent);
+// const sembunyi = document.getElementsByTagName("span");
+// console.log(sembunyi[0].textContent);
 
 p1.textContent = "Teks Baru";   // akan jadi teks biasa, tidak bisa isi/jalankan Script/HTML hasil modif
 console.log(p1.textContent);
@@ -36,4 +36,7 @@ console.log(p2.innerHTML);
   - Lebih lambat dari .textContent karena harus menghitung gaya CSS
 */
 const p3 = document.getElementById("contoh3");
-// console.log(p3.innerText);   ERROR
+console.log(p3.innerText);
+
+p3.innerText = "Apalah"
+console.log(p3.innerText);
