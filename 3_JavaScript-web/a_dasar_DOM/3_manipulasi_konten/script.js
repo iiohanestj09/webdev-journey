@@ -4,8 +4,7 @@
 => Fungsi: Mengambil / Mengubah teks MENTAH dalam elemen.
   - Selalu mengembalikkan semua teks (termasuk teks yg tersembunyi dgn CSS)
   - Tidak memproses HTML tag, hanya menampilkan teksnya (isinya)
-  - Semua tag HTML akan dianggap sebagai teks biasa di dalamnya, maka tidak bisa menjalankan Script atau HTML
-*/
+  - Semua tag HTML akan dianggap sebagai teks biasa di dalamnya, maka tidak bisa menjalankan Script atau HTML */
 const p1 = document.getElementById("contoh");
 console.log(p1.textContent);
 // const sembunyi = document.getElementsByTagName("span");
@@ -20,8 +19,7 @@ console.log(p1.textContent);
 => Fungsi: Mengambil / Mengubah konten HTML mentah dalam elemen.
   - Mengembalikkan string HTML (termasuk tag)
   - Bisa digunakan utk menyisipkan HTML baru
-  - berbahaya kalau isi berasal dari user input. (Rentan XSS(Cross-Stire Scripting))
-*/
+  - berbahaya kalau isi berasal dari user input. (Rentan XSS(Cross-Stire Scripting)) */
 const p2 = document.getElementById("contoh2");
 console.log(p2.innerHTML);
 
@@ -33,8 +31,7 @@ console.log(p2.innerHTML);
 => Fungsi: Mengambil / Mengubah teks yg terlihat di layar (rendered text).
   - Tidak mengambil teks yg tersembunyi (display:none atau visibility:hidden)
   - Memperhatikan style CSS (misalnya line-break)
-  - Lebih lambat dari .textContent karena harus menghitung gaya CSS
-*/
+  - Lebih lambat dari .textContent karena harus menghitung gaya CSS */
 const p3 = document.getElementById("contoh3");
 console.log(p3.innerText);
 
