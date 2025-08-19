@@ -9,12 +9,12 @@ Contoh event:
 ### 2. Cara Menangani Event
 Ada beberapa acara untuk menangani event di JavaScript: <br>
   ##### a. Inline HTML Attribute
-    Menulis langsung di tag HTML <br>
+  Menulis langsung di tag HTML
     ```
     <button onclick="alert('Tombol diklik!')">Klik Saya</button>
-    ``` <br>
+    ```
   ##### b. DOM Property
-    Menetapkan fungsi ke properti event dari elemen <br>
+  Menetapkan fungsi ke properti event dari elemen
     ```
     <button id="btn">Klik Saya</button>
     <script>
@@ -23,14 +23,14 @@ Ada beberapa acara untuk menangani event di JavaScript: <br>
         alert("Tombol diklik!");
       };
     </script>
-    ``` <br>
+    ```
   ##### c. addEventListener
-    Lebih fleksibel karena bisa menambahkan lebih dari satu event handler <br>
+  Lebih fleksibel karena bisa menambahkan lebih dari satu event handler
     ```
     <button id="btn">Klik Saya</button>
     <script>
       const btn = document.getElementById("btn");
-      
+
       btn.addEventListener("click", function() {
         alert("Tombol diklik!");
       });
