@@ -1,20 +1,20 @@
 ### 1. Apa itu Event?
 Event adalah __kejadian (aksi)__ yg terjadi di browser, baik dari __user__ maupun dari __sistem__.
 Contoh event:
-  * User Action -> Klik tombol, mengetik di input, menggerakan mouse, menekan keyboard.
-  * Browser/System Event -> Halaman selesai dimuat (DOMContentLoaded), resize jendela, error, dll.
+  * __User Action__ -> Klik tombol, mengetik di input, menggerakan mouse, menekan keyboard.
+  * __Browser/System__ Event -> Halaman selesai dimuat (DOMContentLoaded), resize jendela, error, dll.
 
 ---
 
 ### 2. Cara Menangani Event
-Ada beberapa acara untuk menangani event di JavaScript:
-  a. Inline HTML Attribute
-    Menulis langsung di tag HTML
+Ada beberapa acara untuk menangani event di JavaScript: <br>
+  ##### a. Inline HTML Attribute
+    Menulis langsung di tag HTML <br>
     ```
     <button onclick="alert('Tombol diklik!')">Klik Saya</button>
-    ```
-  b. DOM Property
-    Menetapkan fungsi ke properti event dari elemen
+    ``` <br>
+  ##### b. DOM Property
+    Menetapkan fungsi ke properti event dari elemen <br>
     ```
     <button id="btn">Klik Saya</button>
     <script>
@@ -23,9 +23,9 @@ Ada beberapa acara untuk menangani event di JavaScript:
         alert("Tombol diklik!");
       };
     </script>
-    ```
-  c. addEventListener
-    Lebih fleksibel karena bisa menambahkan lebih dari satu event handler
+    ``` <br>
+  ##### c. addEventListener
+    Lebih fleksibel karena bisa menambahkan lebih dari satu event handler <br>
     ```
     <button id="btn">Klik Saya</button>
     <script>
@@ -45,10 +45,10 @@ Ada beberapa acara untuk menangani event di JavaScript:
 ---
 
 ### 3. Jenis Event yang Umum Dipakai
-  * Mouse Event -> click, dblclick, mouseover, mouseout, mousemove
-  * Keyboard Event -> keydown, keyup, keypress
-  * Form Event -> submit, change, focus, blur, input
-  * Window/Document Event -> load, DOMContentLoaded, resize, scroll
+  * __Mouse Event__ -> click, dblclick, mouseover, mouseout, mousemove
+  * __Keyboard Event__ -> keydown, keyup, keypress
+  * __Form Event__ -> submit, change, focus, blur, input
+  * __Window/Document Event__ -> load, DOMContentLoaded, resize, scroll
 
 ---
 
