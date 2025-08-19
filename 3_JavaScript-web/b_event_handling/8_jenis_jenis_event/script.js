@@ -123,3 +123,9 @@ Khusus utk elemen media (<audio>, <video>)
 - pause : saat media dijeda
 - ended : saat media selesai
 - timeupdate : saat posisi waktu media berubah */ 
+
+/* 8. Lainnya
+-> Drag Event
+-> Wheel Event
+-> Pointer Event
+-> Animation / Transition Event */ 
