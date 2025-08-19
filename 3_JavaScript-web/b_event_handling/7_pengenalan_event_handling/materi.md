@@ -45,11 +45,15 @@ Ada beberapa acara untuk menangani event di JavaScript: <br>
 
 ---
 
-### 3. Jenis Event yang Umum Dipakai
+### 3. Jenis - Jenis Event
   * __Mouse Event__ -> click, dblclick, mouseover, mouseout, mousemove
   * __Keyboard Event__ -> keydown, keyup, keypress
   * __Form Event__ -> submit, change, focus, blur, input
+  * __Clipboard Event__ -> copy/paste/cut
   * __Window/Document Event__ -> load, DOMContentLoaded, resize, scroll
+  * __Touch Event__ -> Event utk layar sentuh
+  * __Media Events__ -> khusus utk elemen media (audio, video, dll)
+  * Lainnya: __Drag Event__, __Wheel Event__, __Pointer Event__, __Animation/Transition Event__
 
 ---
 
