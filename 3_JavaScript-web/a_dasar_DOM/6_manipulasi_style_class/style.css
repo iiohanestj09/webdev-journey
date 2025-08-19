@@ -1,0 +1,22 @@
+.highlight {
+  color: rgb(41, 41, 249);
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.big {
+  width: 200px;
+  height: 70px;
+  background-color: lightcoral;
+}
+
+.small {
+  width: 50px;
+  height: 20px;
+  background-color: lightblue;
+}
