@@ -10,38 +10,38 @@ Contoh event:
 Ada beberapa acara untuk menangani event di JavaScript: <br>
   #### a. Inline HTML Attribute
   Menulis langsung di tag HTML <br>
-    ```
-    <button onclick="alert('Tombol diklik!')">Klik Saya</button>
-    ```
+  ```
+  <button onclick="alert('Tombol diklik!')">Klik Saya</button>
+  ```
   #### b. DOM Property
-    Menetapkan fungsi ke properti event dari elemen <br>
-    ```
-    <button id="btn">Klik Saya</button>
-    <script>
-      const btn = document.getElementById("btn");
+  Menetapkan fungsi ke properti event dari elemen <br>
+  ```
+  <button id="btn">Klik Saya</button>
+  <script>
+    const btn = document.getElementById("btn");
 
-      btn.onclick = function() {
-        alert("Tombol diklik!");
-      };
-    </script>
-    ```
+    btn.onclick = function() {
+      alert("Tombol diklik!");
+    };
+  </script>
+  ```
   #### c. addEventListener
-    Lebih fleksibel karena bisa menambahkan lebih dari satu event handler <br>
-    ```
-    <button id="btn">Klik Saya</button>
-    <script>
-      const btn = document.getElementById("btn");
+  Lebih fleksibel karena bisa menambahkan lebih dari satu event handler <br>
+  ```
+  <button id="btn">Klik Saya</button>
+  <script>
+    const btn = document.getElementById("btn");
 
-      btn.addEventListener("click", function() {
-        alert("Tombol diklik!");
-      });
+    btn.addEventListener("click", function() {
+      alert("Tombol diklik!");
+    });
 
-      // Bisa ditambah handler lain
-      btn.addEventListener("click", function() {
-        console.log("Handler kedua jalan.");
-      });
-    </script>
-    ```
+    // Bisa ditambah handler lain
+    btn.addEventListener("click", function() {
+      console.log("Handler kedua jalan.");
+    });
+  </script>
+  ```
 
 ---
 
