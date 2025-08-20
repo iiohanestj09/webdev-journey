@@ -14,11 +14,11 @@ btn.addEventListener("mouseover", () => {
 });
 
 btn.addEventListener("mouseout", () => {
-  console.log("Mouse keluar dari tombol");
+  console.log("Mouse keluar dari tombol", this);
 });
 
-btn.addEventListener("click", () => {
-  console.log("Tombol diklik");
+btn.addEventListener("click", function() {
+  console.log("Tombol diklik", this);
 });
 
 
