@@ -1,5 +1,5 @@
 /* Dalam JS, kita bisa membuat elemen baru (misalnya <p>, <div>, <li>, dll) dengan document.createElement()
-Elemen baru ini tidak otomatis muncul di halaman sampai kita menambahkannya ke DOM menggunakan seperti .appendChild() atau appen() */
+Elemen baru ini tidak otomatis muncul di halaman sampai kita MENAMBAHKANNYA ke DOM menggunakan seperti .appendChild() atau appen() */
 
 /* 1. Membuat Elemen  -> document.createElement()
   - Membuat elemen kosong dgn nama tag tertentu
