@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15_form_handling</title>
+</head>
+<body>
+  <h2>1. Validasi Input Manual</h2>
+  <form id="form1" style="background-color: #eee;">
+    <input type="text" name="username" placeholder="Username..."> <br>
+    <input type="text" name="email" placeholder="Email..."> <br>
+    <input type="text" name="age" placeholder="Age..."> <br>
+    <button type="submit">Kirim</button>
+  </form>
+  <br>
+
+
+  <h2>2. Validasi HTML5</h2>
+  <form id="form2" style="background-color: aquamarine;">
+    <input type="text" name="username" placeholder="Username...." required minlength="3" maxlength="15"> <br>
+    <input type="email" name="email" placeholder="Email...." required> <br>
+    <input type="number" name="age" placeholder="Age...." required min="1"> <br>
+    <button type="submit">Kirimm</button>
+  </form>
+  <br>
+
+
+  <h2>3. Pesan Error Dinamis</h2>
+  <form id="form3" style="background-color: coral;" novalidate> <!--novalidate: Validasi sepenuhnya dikendalikan oleh JavaScript. type="email" dll tidak berjalan-->
+    <input type="text" id="username" name="username" placeholder="Username....." required minlength="3" maxlength="15">
+    <span id="error-username" style="color: red; font-size: 12px;"></span> <br>
+
+    <input type="email" id="email" name="email" placeholder="Email....." required>
+    <span id="error-email" style="color: red; font-size: 12px;"></span> <br>
+
+    <input type="number" id="age" name="age" placeholder="Age....." required min="1">
+    <span id="error-age" style="color: red; font-size: 12px;"></span> <br>
+
+    <button type="submit">Kirimmm</button>
+  </form>
+
+  <script src="1_validasi_input_manual.js"></script>
+  <script src="2_validasi_HTML5.js"></script>
+  <script src="3_pesan_error_dinamis.js"></script>
+</body>
+</html>
