@@ -1,6 +1,6 @@
 //? Kontrol Video dan Audio hampir sama (sebelas dua belas)
 
-// 1. Button Memutar, Pause, Stop
+// 1. Button Play, Pause, Stop
 const myVideo = document.getElementById("myVideo");
 const playBtn = document.getElementById("playBtn");
 const pauseBtn = document.getElementById("pauseBtn");
@@ -39,7 +39,7 @@ myVideo.addEventListener("timeupdate", () => {
 });
 
 
-// 5. Contoh Custom Video Player Sederhana
+// A. Contoh: Custom Video Player Sederhana
 const customVideo = document.getElementById("customVideo");
 const toggleBtn = document.getElementById("toggleBtn");
 const seekBar = document.getElementById("seekBar");
@@ -64,4 +64,61 @@ customVideo.addEventListener("timeupdate", () => {
 // loncat ke waktu tertentu via seek bar
 seekBar.addEventListener("input", () => {
   customVideo.currentTime = seekBar.value;
+})
+
+
+// B. Contoh: Playlist Audio Sederhana
+const audioPlayer = document.getElementById("audioPlayer");
+const playPauseBtn = document.getElementById("playPauseBtn");
+const nowPlaying = document.getElementById("nowPlaying");
+
+// Daftar Lagu
+const playlist = [
+  { title: "Lagu 1", src: "audio/audio1.mp3" },
+  { title: "Lagu 2", src: "audio/audio2.mp3" },
+  { title: "Lagu 3", src: "audio/audio3.mp3" },
+  { title: "Lagu 4", src: "audio/audio4.mp3" }
+];
+
+let currentIndex = 0;
+
+// load lagu pertama
+function loadSong(index) {
+  audioPlayer.src = playlist[index].src;
+  nowPlaying.textContent = "Now Playing: " + playlist[index].title;
+}
+loadSong(currentIndex);
+
+// play/pause toggle
+playPauseBtn.addEventListener("click", () => {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+    playPauseBtn.textContent = "⏸ Pause";
+  } else {
+    audioPlayer.pause();
+    playPauseBtn.textContent = "▶️ Play";
+  }
+});
+
+// Next lagu
+document.getElementById("nextBtn").addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % playlist.length;
+  loadSong(currentIndex);
+  audioPlayer.play();
+  playPauseBtn.textContent = "⏸ Pause";
+});
+
+// Prev lagu
+document.getElementById("prevBtn").addEventListener("click", () => {
+  currentIndex = (currentIndex - 1) + playlist.length % playlist.length;
+  loadSong(currentIndex);
+  audioPlayer.play();
+  playPauseBtn.textContent = "⏸ Pause";
+});
+
+// Auto next setelah selesai
+audioPlayer.addEventListener("ended", () => {
+  currentIndex = (currentIndex + 1) % playlist.length;
+  loadSong(currentIndex);
+  audioPlayer.play();
 })

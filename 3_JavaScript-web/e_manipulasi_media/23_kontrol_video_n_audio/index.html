@@ -6,6 +6,7 @@
   <title>23_kontrol_video</title>
 </head>
 <body>
+  <h2>Video</h2>
   <video id="myVideo" width="500" height="300" controls>
     <source src="vid/video1.mp4" type="video/mp4">
     Browser Kamu tidak mendukung video.
@@ -22,6 +23,19 @@
     </video> <br>
     <button id="toggleBtn">Play</button>
     <input type="range" id="seekBar" min="0" value="0" step="0.1">
+  </div> <br><br>
+
+  <div class="player2">
+    <h2>Audio</h2>
+    <audio id="audioPlayer"></audio>
+
+    <div>
+      <button id="prevBtn">⏮ Prev</button>
+      <button id="playPauseBtn">▶️ Play</button>
+      <button id="nextBtn">⏭ Next</button>
+    </div>
+
+    <p id="nowPlaying">Now Playing: -</p>
   </div>
   <script src="script.js"></script>
 </body>
