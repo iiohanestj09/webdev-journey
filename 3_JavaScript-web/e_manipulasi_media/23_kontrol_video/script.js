@@ -1,3 +1,5 @@
+//? Kontrol Video dan Audio hampir sama (sebelas dua belas)
+
 // 1. Button Memutar, Pause, Stop
 const myVideo = document.getElementById("myVideo");
 const playBtn = document.getElementById("playBtn");
