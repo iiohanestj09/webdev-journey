@@ -33,9 +33,8 @@
 ---
 
 ### 2. Optimasi Video
-  * Gunakan resolusi sesuai (misal 720p utk web, bukan 4k) <br>
-  * Gunakan __format efisien__: 
-  a. MP4 (H.254 / AAC)
+  * Gunakan resolusi sesuai (misal 720p utk web, bukan 4k) 
+  * Gunakan __format efisien__ MP4 (H.254 / AAC):
     + Kelebihan:
       - Paling populer & universal -> didukung hampir semua browser, OS, device
       - Kualitas bagus dengan ukuran relatif kecil
@@ -43,17 +42,17 @@
     + Kekurangan:
       - Kompresi tidak seefisien format baru (misalnya AV1)
       - Kadang ukuran file lebih besar daripada WebM
-      - Note: Selalu sediakan sebagai fallback (karena aman & universal) <br>
-  b. WebM (VP8 / VP9 / Av1 + Vorbis/Orpus)
+      - Note: Selalu sediakan sebagai fallback (karena aman & universal) 
+  * Gunakan __format efisien__ WebM (VP8 / VP9 / Av1 + Vorbis/Orpus)
     + Kelebihan:
       - Format open-source (tanpa lisensi seperti H.264)
       - Lebih efisien -> ukuran file lebih kecil dengan kualitas setara MP4
       - Bagus untuk streaming web (Youtube banyak pakai VP9/WebM)
-      - Note: Tambahkan untuk browser modern (hemat bandwith, performa lebih baik) <br>
+      - Note: Tambahkan untuk browser modern (hemat bandwith, performa lebih baik)
     + Kekurangan:
       - Support __lebih terbatas__ di browser lama & beberapa device (misalnya Safari baru-baru ini mendukung, tapi tidak sekuat Chrome/Firefox)
       - Tidak seu-universal MP4 kalau dibuka di aplikasi offline
-  C. Cara Penggunaan:
+  * Cara Penggunaan:
     ```
     <video controls width="640">
       <source src="video.mp4" type="video/mp4">
