@@ -52,7 +52,7 @@
     + Kekurangan:
       - Support __lebih terbatas__ di browser lama & beberapa device (misalnya Safari baru-baru ini mendukung, tapi tidak sekuat Chrome/Firefox)
       - Tidak seu-universal MP4 kalau dibuka di aplikasi offline
-  * Cara Penggunaan:
+  * Cara Penggunaan __format efisien__:
     ```
     <video controls width="640">
       <source src="video.mp4" type="video/mp4">
