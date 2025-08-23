@@ -33,10 +33,36 @@
 ---
 
 ### 2. Optimasi Video
-  - Gunakan resolusi sesuai (misal 720p utk web, bukan 4k)
-  - Gunakan __format efisien__: 'Mp4 (H.264)' atau 'WebM (VP9/AV1)'
-  - Streaming dari CDN atau layanan pihak ketiga (YouTube, VImeo) kalau file besar
-  - Contoh embed Youtube dengan Lazy Load:
+  * Gunakan resolusi sesuai (misal 720p utk web, bukan 4k)
+  * Gunakan __format efisien__: 
+  a. MP4 (H.254 / AAC)
+    + Kelebihan:
+      - Paling populer & universal -> didukung hampir semua browser, OS, device
+      - Kualitas bagus dengan ukuran relatif kecil
+      - Bisa diputar dengan ukuran relatif kecil
+    + Kekurangan:
+      - Kompresi tidak seefisien format baru (misalnya AV1)
+      - Kadang ukuran file lebih besar daripada WebM
+      - Note: Selalu sediakan sebagai fallback (karena aman & universal)
+  b. WebM (VP8 / VP9 / Av1 + Vorbis/Orpus)
+    + Kelebihan:
+      - Format open-source (tanpa lisensi seperti H.264)
+      - Lebih efisien -> ukuran file lebih kecil dengan kualitas setara MP4
+      - Bagus untuk streaming web (Youtube banyak pakai VP9/WebM)
+      - Note: Tambahkan untuk browser modern (hemat bandwith, performa lebih baik)
+    + Kekurangan:
+      - Support __lebih terbatas__ di browser lama & beberapa device (misalnya Safari baru-baru ini mendukung, tapi tidak sekuat Chrome/Firefox)
+      - Tidak seu-universal MP4 kalau dibuka di aplikasi offline
+  C. Cara Penggunaan:
+    ```
+    <video controls width="640">
+      <source src="video.mp4" type="video/mp4">
+      <source src="video.webm" type="video/webm">
+      Browser Anda tidak mendukung video HTML5
+    </video>
+    ```
+  * Streaming dari CDN atau layanan pihak ketiga (YouTube, VImeo) kalau file besar
+  * Contoh embed Youtube dengan Lazy Load:
   ```
   <iframe width="560" height="315"
     src="https://www.youtube.com/embed/xxxxxxxx"
@@ -47,20 +73,20 @@
 ---
 
 ### 3. Optimasi Audio
-  - Gunakan __format terkompresi__: 'MP3', 'AAC', 'OGG
-  - Jika utk musik streaming, bisa pakai __Bitrate Adaptif__ (misal 128kbps - 320kbps)
-  - Jangan auto-play kecuali penting -> hemat Bandwith & UX lebih baik
+  * Gunakan __format terkompresi__: 'MP3', 'AAC', 'OGG
+  * Jika utk musik streaming, bisa pakai __Bitrate Adaptif__ (misal 128kbps - 320kbps)
+  * Jangan auto-play kecuali penting -> hemat Bandwith & UX lebih baik
 
 ---
 
 ### 4. Caching & CDN
-  - __Caching__: Browser simpan file supaya tidak download ulang.
-  - __CDN__: Distribusikan file ke Server terdekat agar lebih cepat diakses
+  * __Caching__: Browser simpan file supaya tidak download ulang.
+  * __CDN__: Distribusikan file ke Server terdekat agar lebih cepat diakses
 
 ---
 
 ### Compress Sebelum Upload
 Gunakan tool seperti:
-  - TinyPNG untuk gambar
-  - FFmpeg untuk audio/video
-  -Plugin build (Webpack, vite, Gulp) -> otomatis kompres saat deploy
+  * TinyPNG untuk gambar
+  * FFmpeg untuk audio/video
+  * Plugin build (Webpack, vite, Gulp) -> otomatis kompres saat deploy
