@@ -38,7 +38,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
 
 
 /* 4. Contoh: dengan async/await
-Lebih rapu daripada .then() chaining  */
+Lebih rapih daripada .then() chaining  */
 async function getData() {
   try {
     let response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
