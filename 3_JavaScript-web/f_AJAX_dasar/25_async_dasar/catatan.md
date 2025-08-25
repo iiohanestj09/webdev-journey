@@ -9,6 +9,7 @@ Singkatnya, AJAX = teknik komunikasi asinkron antara browser <-> server tanpa re
 Sebelum ada AJAX:
   * Setiap kali butuh data baru -> halaman harus __reload__
   * UX (User Experience) jadi lambat
+
 Dengan AJAX:
   * Halaman __tidak reload penuh__
   * Hanya bagian tertentu yg diperbarui
