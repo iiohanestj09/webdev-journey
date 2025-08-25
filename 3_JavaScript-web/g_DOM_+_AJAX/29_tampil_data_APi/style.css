@@ -1,0 +1,12 @@
+.user-card {
+  width: 310px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 6px 10px;
+  border-radius: 6px;
+}
+
+.user-card:hover {
+  background-color: azure;
+}
