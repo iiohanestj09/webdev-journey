@@ -9,7 +9,7 @@ Contoh:
 Browser harus hitung ulang posisi semua elemen terkait.
 
 ### 2. Repaint
-Terjadi saat __penampilan (appearance)__ berubah, jadi __layout tidak berubah__.
+Terjadi saat __penampilan (appearance)__ berubah, jadi __layout tidak berubah__. <br>
 Contoh:
   ```
   element.style.backgroundColor = "red";
@@ -67,7 +67,7 @@ list.appendChild(frag);   // 1x reflow
 box.style.width = box.offsetWidth + 10 + "px";
 box.style.height = box.offsetHeight + 10 + "px";
 ```
-Setiap baca .offsetWidth -> browser paksa reflow
+Setiap baca .offsetWidth -> browser paksa reflow.
 
 ✅ Solusi: cache dulu ukurannya.
 ```
