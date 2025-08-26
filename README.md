@@ -17,7 +17,7 @@
 |-------|----------------------------------|---------------------|
 |  1️⃣   | HTML Fundamental                 | ✅ Done             |
 |  2️⃣   | CSS Fundamental                  | ✅ Done             |
-|  3️⃣   | JavaScript for Web               | 🔄 On Progress      |
+|  3️⃣   | JavaScript for Web               | ✅ Done             |
 |  4️⃣   | PHP for Web                      | 🟥 Not Started      |
 |  5️⃣   | Tools                            | 🟥 Not Started      |
 |  6️⃣   | Frameworks                       | 🟥 Not Started      |
